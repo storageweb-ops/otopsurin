@@ -95,7 +95,7 @@ const Header = () => {
                 {item.name}
               </Link>
             ))}
-            <div className="pt-4 flex gap-3">
+            <div className="pt-4 flex gap-3 hidden">
               <Button variant="outline" size="sm" className="flex-1">
                 <Search className="h-4 w-4 mr-2" />
                 Search
