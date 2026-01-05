@@ -24,6 +24,7 @@ import landscapeImage01 from "@/assets/01.jpg";
 import landscapeImage02 from "@/assets/02.jpg";
 import landscapeImage03 from "@/assets/03.jpg";
 import landscapeImage04 from "@/assets/04.jpg";
+import landscapeImage05 from "@/assets/05.jpg";
 
 
 // Product images
@@ -53,6 +54,7 @@ export {heroImage,
         landscapeImage02,
         landscapeImage03,
         landscapeImage04,
+        landscapeImage05,
 };
 
 // Mock products data
@@ -331,6 +333,20 @@ export const communities = [
     description: "",
     image: landscapeImage04,
     productTypes: ["Souvenirs", "Brass Work", "Wood Carving"],
+    memberCount: 28,
+    contactInfo: {
+      phone: "-",
+      email: "-",
+    },
+  },
+    {
+    id: "5",
+    name: "บ้านประทุน",
+    nameThai: "กลุ่มผ้าไหมเพื่อการท่องเที่ยว",
+    location: "บ้านประทุน หมู่ที่4 ถนนศีขรภูมิ-จอมพระ  อำเภอศีขรภูมิ จังหวัดสุรินทร์",
+    description: "",
+    image: landscapeImage05,
+    productTypes: ["Silk Fabric", "Scarves", "Traditional Wear"],
     memberCount: 28,
     contactInfo: {
       phone: "-",
